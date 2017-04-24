@@ -95,14 +95,7 @@ presentation 'state_of_the_javascript_union_2017' do
       note "Biggest upgrade to language to date"
     end
 
-    slide "" do
-      code(:javascript) do
-        'es2015.js'
-        # {user, {name}}
-      end
-    end
-
-    slide "Today" do
+    slide "2015-2016" do
       list do
         point "High Competition", animation: true
         point "Rapid Tool Evolution", animation: true
@@ -110,20 +103,53 @@ presentation 'state_of_the_javascript_union_2017' do
       end
     end
 
-    slide "Sucks to be you" do
+    slide "Sucked to be you" do
       point "Hard to Keep up"
     end
 
     slide "", background: "frameworkFatigue.png"
 
-    slide "Still really exciting :-)"
+    slide "Today" do
+      list do
+        point "React"
+        point "Redux"
+        point "Webpack"
+      end
+    end
+
+    slide "The Browser" do
+      list do
+        point "https://developer.mozilla.org/en-US/docs/Web/API"
+        point "Everything great, except fetch", animation: true
+      end
+    end
+
+    slide "Electron" do
+      list do
+        point "Atom"
+        point "Desktop applications"
+        point "Access to local hardware"
+      end
+    end
+
+    slide "ReactNative" do
+      list do
+        point "Create Native apps"
+        point "iOS"
+        point "Android"
+        point "MacOS"
+      end
+    end
+
+    slide "WebAssembly" do
+      point "http://webassembly.org/demo/"
+      point "http://quakejs.com"
+      point "Hold on to your hats", animation: true
+      point "https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript", animation: true
+    end
+
+    slide "GREAT TIME TO BE USING JAVASCRIPT"
 
     slide "¿Questions?"
-
-    slide "Bonus"
-    slide "WebAssembly" do
-      point "http://bit.ly/RtLaCet"
-      point "Hold on to your hats", animation: true
-    end
   end
 end
